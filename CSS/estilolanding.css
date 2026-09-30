@@ -147,9 +147,11 @@ article img {
 article table{
   border: 3px  solid;
   border-collapse: collapse;
+  border-color: #000000;
 }
 article table th td {
   border:2px solid;
+  border-color: #000000;
   padding: 10px;
 }
 /*
