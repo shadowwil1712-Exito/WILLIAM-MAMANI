@@ -144,8 +144,8 @@ article img {
   display: block;
   border-radius: 10px;
 }
-table tr {
-  border: 1px solid red;
+article table  {
+  border: 1px 1px 1px solid black;
 }
 /*
 table tr th td {
