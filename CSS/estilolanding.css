@@ -145,7 +145,10 @@ article img {
   border-radius: 10px;
 }
 article table  {
-  border: 1px  solid black;
+  border: 2px  solid;
+}
+td tr {
+  border:1px solid;
 }
 /*
 table tr th td {
