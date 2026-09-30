@@ -145,10 +145,12 @@ article img {
   border-radius: 10px;
 }
 article table{
-  border: 2px  solid;
+  border: 3px  solid;
+  border-collapse: collapse;
 }
-article table tr th td {
-  border:1px solid;
+article table th td {
+  border:2px solid;
+  padding: 10px;
 }
 /*
 table tr th td {
