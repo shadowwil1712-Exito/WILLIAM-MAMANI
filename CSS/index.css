@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  color: #1a0701;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 1px;
+  display: grid;
+  background-color: #e8e9eb;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "footer footer";
+  min-height: 100vh;
+}
+header {
+  justify-content: center;
+  align-items: center;
+  grid-area: header;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 3px 0px #f2bc0d;
+}
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #3039a1;
+  text-shadow: 2px 4px 3px #f2bc0d;
+}
+header img {
+  width: 150px;
+  height: auto;
+  transition: all 0.9s ease;
+  border-radius: 100%;
+}
+header img:hover {
+  transform: scale(1.1);
+}
+nav {
+  justify-content: center;
+  grid-area: nav;
+  padding: 5px;
+  display: flex;
+  background-color: #bea5a5;
+  
+}
+nav ul {
+  display: grid;
+  align-self: center;
+  padding: 10px;
+
+}
+nav a {
+  width: 15vw;
+  margin: 8px;
+  padding: 8px;
+  list-style: none;
+  text-decoration: none;
+  background-color: #200801;
+  border: 3px solid;
+  border-color: #f2c680;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.9s ease;
+}
+nav ul a li {
+  text-align: center;
+  color:  #e0e0e0 ;
+  width: 100%;
+  
+}
+nav a:hover {
+  color: #00b4d8;
+  background-color:rgba(10, 15, 30, 0.6); 
+  transform: scale(1.08);
+  border-radius: 8px;
+}
+.navegacion{
+  background-image: url(https://img.magnific.com/vector-gratis/fondo-tecnologia-digital-efecto-luz-azul-naranja_1017-27423.jpg?semt=ais_hybrid&w=740&q=80);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  width: auto;
+  min-height: auto;
+  align-self: center;
+  justify-self: center;
+  border-radius: 50px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 20px;
+  background-color: #02113e;
+  justify-content: center;
+  align-items: center;
+}
+footer h4 {
+  justify-content: center;
+  color: #f2fdff;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+
+  padding: 20px;
+  color: #f2fdff;
+}
+footer a:hover {
+  color: #f2c680;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1280px){
+  body{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+    font-size: 50px;
+    text-align: justify;
+    }
+
+
+  header{
+    align-items: center;
+    background-color: #fff9ef;
+  }
+  nav ul{
+    width: 70vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  nav a {
+    width: 90%;
+  }
+  footer ul{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
