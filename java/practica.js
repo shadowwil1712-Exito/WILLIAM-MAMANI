@@ -28,10 +28,10 @@ function perimetro_area(){
     let largo=10;
     let ancho=5;
     
-    let perimetro = 2*ancho + 2* largo
-    let area = ancho * largo
+    let perimetro = 2*ancho + 2* largo;
+    let area = ancho * largo;
 
-    alert( "el perimetro es igual a "+ perimetro +" m y el área el igual a " + area + "m²")
+    alert( "el perimetro es igual a "+ perimetro +" m y el área el igual a " + area + "m²");
 }
 
 function Pnombre(){
@@ -43,7 +43,7 @@ function tarifa(){
     let tarifa = 10 + (km*3);
 
     
-    alert("la tarifa de "+ km + "km recorridos, pagará S/."+ tarifa)
+    alert("la tarifa de "+ km + "km recorridos, pagará S/."+ tarifa);
 }
 
 function promedio(){
