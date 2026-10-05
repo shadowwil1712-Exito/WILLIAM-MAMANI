@@ -17,11 +17,12 @@ body {
 }
 header {
   grid-area: header;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  
 }
 header h1 {
     color: #FFD200;
@@ -75,9 +76,9 @@ nav ul {
   padding: 0;
 }
 nav a {
-  width: 80%;
-  margin: 10px;
-  padding: 10px;
+  width: 12vw;
+  margin: 8px;
+  padding: 8px;
   list-style: none;
   text-decoration: none;
   background-color: #FFD200;
@@ -89,7 +90,8 @@ nav a {
   
 }
 nav li {
-  color: #3b3c3e;;
+  color: #3b3c3e;
+  text-align: center;
 }
 nav a:hover {
   background-color:#3b3c3e;
@@ -144,15 +146,8 @@ article img {
   display: block;
   border-radius: 10px;
 }
-article table{
-  border: 3px  solid;
-  border-collapse: collapse;
-  border-color: #000000;
-}
-article table th td {
-  border:2px solid;
-  border-color: #000000;
-  padding: 10px;
+table tr {
+  border: 1px solid red;
 }
 /*
 table tr th td {
