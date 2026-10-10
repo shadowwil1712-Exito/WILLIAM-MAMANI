@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Landing Institucional Tecnova</title>
+    <link rel="icon" href="imagenes/logo2.png" >
+    <link rel="stylesheet" href="css/estilolanding.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="java/Landing.js"></script>
+    <script src="java/web4.js"></script>
+
+</head>
+<body>
+    <header>        
+        <a href="index.html"><img src="imagenes/logo1.png" alt="INICIO" ></a>  
+        <h1>INSTITUTO SUPERIOR TECNOVA</h1>  
+        <button class="inscribete" onclick="inscribite()">Inscribite Aquí</button> 
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Inicio</li></a>
+        <a href="nosotros.html"><li>Nosotros</li></a>
+      </ul>
+    </nav>
+    <main> 
+      <section> 
+        <article>
+            <img src="imagenes/tecnova.png" alt="" class="imagen">
+        </article>
+        <article>
+            <h3>HISTORIA </h3>
+            <p>El origen de una gran idea comenzó en el año 2012, en una pequeña oficina del centro tecnológico de la ciudad.
+            Tres ingenieros apasionados por la educación y la innovación notaron que la tecnología avanzaba a pasos agigantados,
+            pero los programas de estudio tradicionales se estaban quedando atrás. Con la firme convicción de que la práctica y 
+            la modernidad debían ir de la mano, decidieron fundar un espacio disruptivo. Así nació el Instituto Superior TECNOVA.</p>
+        </article>
+        </article>
+        <article>
+            <h3>VISION</h3>
+            <p>
+                "Ser la institución educativa líder en innovación y presencia digital, 
+                reconocida por su excelencia tecnológica y por ofrecer una experiencia de
+                usuario impecable en cualquier dispositivo."
+            </p><br><br>
+            <h3>MISION</h3>
+            <p>
+                "Brindar servicios educativos de calidad mediante una gestión moderna y accesible,
+                garantizando una comunicación directa y procesos de registro ágiles desde el primer contacto."
+            </p>
+
+        </article>
+
+        <article>
+            <h3>VALORES</h3><br>
+            <ul>                
+                <li>Innovación</li>
+                <li>Eficiencia</li>
+                <li>Profesionalismo</li>
+                <li>Accesibilidad </li>               
+            </ul>
+
+        </article>
+        
+      </section>               
+    </main>
+    <aside>
+      <div class="card" style="width: 18rem">
+            <img src="imagenes/atm.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Atletico de Madrid</h5>
+              <p class="card-text">
+                Este es un equipo de futbol de España que no va a soltar a
+                Julian Alvarez.
+              </p>
+              <a href="index.html" class="btn btn-primary">Volver Inicio</a>
+            </div>
+          </div>
+        <br>
+       <div class="card" style="width: 18rem">
+        <img id="carita" src="https://media.istockphoto.com/id/689364180/es/vector/sonriente-icono-de-emoci%C3%B3n-de-personas-positivas-de-cara-de-dibujos-animados.jpg?s=612x612&w=0&k=20&c=WmsDAjUpqWkPR7eGixUhWjfnC1_jcyEaUiB5h1nEWVc=" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Estado de Animo</h5>
+          <p class="card-text">
+            Con el boton de abajo podemos cambiar la carita,
+          </p>
+          <button class="btn btn-primary" onclick="sad()">Sad</button>
+          <button class="btn btn-primary" onclick="happy()">Happy</button>
+        </div>
+      </div>
+    </aside>
+    <footer><hr>
+        <h4>Enlaces de Interes</h4>
+        <ul>
+          <li><a href="https://shadowwil1712-exito.github.io/WILLIAM-MAMANI/" target="_blank">Mi Pagina Web</a></li>
+        </ul>
+        <button id="boton" class="btn btn-outline-success">desliza</button>
+      
+    </footer>
+    <script src="java/eventos.js"></script>
+</body>
+</html>
