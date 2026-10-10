@@ -80,7 +80,7 @@ function enviarformulario() {
 
     
     error.innerHTML = "¡Formulario llenado con éxito!";
-    error.style.color = "blue";
+    error.style.color = "red";
     return true; 
    
 }
