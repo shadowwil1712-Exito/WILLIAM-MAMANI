@@ -114,7 +114,7 @@
       <article id="formulario">
       <h2>FORMULARIO DE CONTACTO</h2>
       <hr>
-      <form action="#" class="form-group" method="post" id="miFormContacto">
+      <form action="#" class="form-group" method="#" id="miFormContacto">
         <label for="seleccionar opcion">Selecciona una opción</label> <br>
         <input
           class="form-check-input"
@@ -173,7 +173,9 @@
         </select><br>
         <input type="checkbox" name="terminos"  id="terminos" required/>
         <label for="terminos">Acepto los Términos</label><br><br>
-        <button class="btn btn-primary" type="submit" onclick="return enviarformulario()" value="enviar">Enviar</button>
+
+
+        <button class="btn btn-primary" type="submit" value="enviar">Enviar</button>
         <button class="btn btn-danger" type="reset">Limpiar</button><br><br>
         <p id="mensajeResultado">Mensaje de Resultado</p>
       </form>
