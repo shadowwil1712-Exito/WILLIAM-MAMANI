@@ -11,7 +11,9 @@ let carrera = document.getElementById("Carrera");
 let terminos = document.getElementById("terminos");
 let error = document.getElementById("mensajeResultado");
 
-function enviarformulario() {
+formulario.addEventListener("submit", 
+    
+    function(evnet){
         
     let radioEstudiante = document.querySelector('input[name="tipo"]');
     let tipoSeleccionado = document.querySelector('input[name="tipo"]:checked');
@@ -75,12 +77,11 @@ function enviarformulario() {
         error.style.color = "red";
         
         formulario.reportValidity(); 
-        return false; 
+        return; 
     }
 
     
     error.innerHTML = "¡Formulario llenado con éxito!";
-    error.style.color = "red";
-    return true; 
+    error.style.color = "blue";
    
-}
+})
